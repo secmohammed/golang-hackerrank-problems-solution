@@ -21,7 +21,7 @@ func bonAppetit(bill []int64, k, b int64) {
 		if b == sum/2 {
 			fmt.Println("Bon Appetit")
 		} else {
-			fmt.Println(sum / 2)
+			fmt.Println(b - sum/2)
 		}
 	}
 }
